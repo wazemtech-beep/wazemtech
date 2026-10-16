@@ -11,6 +11,7 @@ import "./brand.css";
 import "./brand-theme.css";
 import "./landing-completion.css";
 import SmoothScroll from "@/components/SmoothScroll";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const beVietnam = Be_Vietnam_Pro({
   subsets: ["latin"],
@@ -67,6 +68,7 @@ export default function RootLayout({
     <html lang="en" className={`${beVietnam.variable} ${playfairDisplay.variable}`}>
       <body>
         <SmoothScroll>{children}</SmoothScroll>
+        <SpeedInsights />
       </body>
     </html>
   );
