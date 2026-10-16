@@ -50,12 +50,21 @@ export const metadata: Metadata = {
     siteName: "Wazemtech",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/assets/waseem-akram.png",
+        width: 1200,
+        height: 630,
+        alt: "Waseem Akram - Founder & Full Stack Software Developer at Wazemtech",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Wazemtech | Digital Innovation & Design Studio",
     description:
       "Wazemtech blends creativity with technical expertise to craft transformative digital experiences, web design, and intelligent software solutions.",
+    images: ["/assets/waseem-akram.png"],
   },
   verification: {
     google: "U7AnFXOFuKBz18Hwa9rbgs7wQ5euKQudAqfgXstWxvY",
@@ -73,8 +82,9 @@ const jsonLd = {
       description:
         "Full Stack Software Developer & SaaS Architect, founder of Wazemtech, specializing in modern web applications, scalable SaaS products, and digital experiences.",
       url: "https://wazemtech.com",
-      image: "https://wazemtech.com/favicon.svg",
+      image: "https://wazemtech.com/assets/waseem-akram.png",
       sameAs: [
+        "https://www.wikidata.org/wiki/Q141748945",
         "https://www.linkedin.com/in/waseemakramdev",
         "https://github.com/waseemakram-dev",
         "https://x.com/iamwaseemdev",
@@ -112,6 +122,15 @@ const jsonLd = {
         "https://x.com/iamwaseemdev",
         "https://www.linkedin.com/in/waseemakramdev",
       ],
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://wazemtech.com/#profilepage",
+      url: "https://wazemtech.com",
+      name: "Waseem Akram - Founder & Full Stack Software Developer",
+      mainEntity: {
+        "@id": "https://wazemtech.com/#waseemakram",
+      },
     },
     {
       "@type": "WebSite",
