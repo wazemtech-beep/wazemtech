@@ -26,161 +26,77 @@ export default function TeamSection() {
 {"\n        "}
 <div className="team-team-grid">
 {"\n          "}
-<article className="team-team-card" tabIndex={0} aria-label="Waseem Akram, Brand strategy">
-{"\n            "}
-<div className="team-card-backdrop">
-<img src="/sections/vivid-theory-our-team/backdrop.jpg" width="1200" height="1593" alt="" />
-</div>
-{"\n            "}
-<img className="team-portrait" src="/sections/vivid-theory-our-team/markus.png" width="800" height="1062" alt="Waseem Akram" fetchPriority="high" />
-{"\n            "}
-<div className="team-portrait-blur" aria-hidden="true">
-<i >
+          <article className="team-team-card" tabIndex={0} aria-label="Waseem Akram, Web Developer">
+            <div className="team-card-backdrop">
+              <img src="/sections/vivid-theory-our-team/backdrop.jpg" width="1200" height="1593" alt="" />
+            </div>
+            <img className="team-portrait" src="/sections/vivid-theory-our-team/markus.png" width="800" height="1062" alt="Waseem Akram" fetchPriority="high" />
+            <div className="team-portrait-blur" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <div className="team-member-details">
+              <h2>Waseem Akram</h2>
+              <p className="team-role">
+                <span className="team-scramble" data-text="Web Developer" aria-label="Web Developer">
+                  {"Web Developer"}
+                </span>
+              </p>
+            </div>
+          </article>
 
-</i>
-<i >
+          <article className="team-team-card" tabIndex={0} aria-label="Waliha Idrees, Graphic Designer">
+            <div className="team-card-backdrop">
+              <img src="/sections/vivid-theory-our-team/backdrop.jpg" width="1200" height="1593" alt="" />
+            </div>
+            <img className="team-portrait" src="/sections/vivid-theory-our-team/elena.png" width="800" height="1062" alt="Waliha Idrees" />
+            <div className="team-portrait-blur" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <div className="team-member-details">
+              <h2>Waliha Idrees</h2>
+              <p className="team-role">
+                <span className="team-scramble" data-text="Graphic Designer" aria-label="Graphic Designer">
+                  {"Graphic Designer"}
+                </span>
+              </p>
+            </div>
+          </article>
 
-</i>
-<i >
+          <article className="team-team-card" tabIndex={0} aria-label="Fahad Hussain, SEO Specialist">
+            <div className="team-card-backdrop">
+              <img src="/sections/vivid-theory-our-team/backdrop.jpg" width="1200" height="1593" alt="" />
+            </div>
+            <img className="team-portrait" src="/sections/vivid-theory-our-team/david.png" width="800" height="1062" alt="Fahad Hussain" />
+            <div className="team-portrait-blur" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <div className="team-member-details">
+              <h2>Fahad Hussain</h2>
+              <p className="team-role">
+                <span className="team-scramble" data-text="SEO Specialist" aria-label="SEO Specialist">
+                  {"SEO Specialist"}
+                </span>
+              </p>
+            </div>
+          </article>
 
-</i>
-<i >
-
-</i>
-<i >
-
-</i>
-</div>
-{"\n            "}
-<div className="team-member-details">
-<h2 >
-{"Waseem Akram"}
-</h2>
-<p className="team-role">
-<span className="team-scramble" data-text="Brand strategy" aria-label="Brand strategy">
-{"Brand strategy"}
-</span>
-</p>
-</div>
-{"\n          "}
-</article>
-{"\n          "}
-<article className="team-team-card" tabIndex={0} aria-label="Waliha Idrees, Digital experiences">
-{"\n            "}
-<div className="team-card-backdrop">
-<img src="/sections/vivid-theory-our-team/backdrop.jpg" width="1200" height="1593" alt="" />
-</div>
-{"\n            "}
-<img className="team-portrait" src="/sections/vivid-theory-our-team/elena.png" width="800" height="1062" alt="Waliha Idrees" />
-{"\n            "}
-<div className="team-portrait-blur" aria-hidden="true">
-<i >
-
-</i>
-<i >
-
-</i>
-<i >
-
-</i>
-<i >
-
-</i>
-<i >
-
-</i>
-</div>
-{"\n            "}
-<div className="team-member-details">
-<h2 >
-{"Waliha Idrees"}
-</h2>
-<p className="team-role">
-<span className="team-scramble" data-text="Digital experiences" aria-label="Digital experiences">
-{"Digital experiences"}
-</span>
-</p>
-</div>
-{"\n          "}
-</article>
-{"\n          "}
-<article className="team-team-card" tabIndex={0} aria-label="Fahad Hussain, Custom software">
-{"\n            "}
-<div className="team-card-backdrop">
-<img src="/sections/vivid-theory-our-team/backdrop.jpg" width="1200" height="1593" alt="" />
-</div>
-{"\n            "}
-<img className="team-portrait" src="/sections/vivid-theory-our-team/david.png" width="800" height="1062" alt="Fahad Hussain" />
-{"\n            "}
-<div className="team-portrait-blur" aria-hidden="true">
-<i >
-
-</i>
-<i >
-
-</i>
-<i >
-
-</i>
-<i >
-
-</i>
-<i >
-
-</i>
-</div>
-{"\n            "}
-<div className="team-member-details">
-<h2 >
-{"Fahad Hussain"}
-</h2>
-<p className="team-role">
-<span className="team-scramble" data-text="Custom software" aria-label="Custom software">
-{"Custom software"}
-</span>
-</p>
-</div>
-{"\n          "}
-</article>
-{"\n          "}
-<article className="team-team-card" tabIndex={0} aria-label="Muhammad Fasih, Intelligent solutions">
-{"\n            "}
-<div className="team-card-backdrop">
-<img src="/sections/vivid-theory-our-team/backdrop.jpg" width="1200" height="1593" alt="" />
-</div>
-{"\n            "}
-<img className="team-portrait" src="/sections/vivid-theory-our-team/david.png" width="800" height="1062" alt="Muhammad Fasih" />
-{"\n            "}
-<div className="team-portrait-blur" aria-hidden="true">
-<i >
-
-</i>
-<i >
-
-</i>
-<i >
-
-</i>
-<i >
-
-</i>
-<i >
-
-</i>
-</div>
-{"\n            "}
-<div className="team-member-details">
-<h2 >
-{"Muhammad Fasih"}
-</h2>
-<p className="team-role">
-<span className="team-scramble" data-text="Intelligent solutions" aria-label="Intelligent solutions">
-{"Intelligent solutions"}
-</span>
-</p>
-</div>
-{"\n          "}
-</article>
+          <article className="team-team-card" tabIndex={0} aria-label="Muhammad Fasih, Automation Architect">
+            <div className="team-card-backdrop">
+              <img src="/sections/vivid-theory-our-team/backdrop.jpg" width="1200" height="1593" alt="" />
+            </div>
+            <img className="team-portrait" src="/sections/vivid-theory-our-team/david.png" width="800" height="1062" alt="Muhammad Fasih" />
+            <div className="team-portrait-blur" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <div className="team-member-details">
+              <h2>Muhammad Fasih</h2>
+              <p className="team-role">
+                <span className="team-scramble" data-text="Automation Architect" aria-label="Automation Architect">
+                  {"Automation Architect"}
+                </span>
+              </p>
+            </div>
+          </article>
 {"\n        "}
 </div>
 {"\n      "}
