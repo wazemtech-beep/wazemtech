@@ -37,7 +37,24 @@ export const metadata: Metadata = {
   description:
     "Wazemtech blends creativity with technical expertise to craft transformative digital experiences, web design, and intelligent software solutions.",
   icons: {
-    icon: "/assets/logo.svg",
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/favicon.svg",
+  },
+  openGraph: {
+    title: "Wazemtech | Digital Innovation & Design Studio",
+    description:
+      "Wazemtech blends creativity with technical expertise to craft transformative digital experiences, web design, and intelligent software solutions.",
+    siteName: "Wazemtech",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Wazemtech | Digital Innovation & Design Studio",
+    description:
+      "Wazemtech blends creativity with technical expertise to craft transformative digital experiences, web design, and intelligent software solutions.",
   },
 };
 
