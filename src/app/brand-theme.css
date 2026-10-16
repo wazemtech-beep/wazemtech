@@ -1,0 +1,90 @@
+/* Shared Wazemtech palette; imported last so section layouts stay unchanged. */
+:root {
+  --brand-deep: #051F20;
+  --brand-surface: #0B2D26;
+  --brand-jade: #165039;
+  --brand-emerald: #20836F;
+  --brand-mint: #DAF1DE;
+  --brand-sage: #C8E2D6;
+}
+
+html, body { background: var(--brand-deep); }
+.dropdown-menu a { color: var(--brand-deep); }
+
+.growth { background: var(--brand-deep); }
+.growth .growth-inner { background: var(--brand-mint); box-shadow: none; }
+.growth .headline, .growth .intro > p { color: var(--brand-deep); }
+.growth .headline .word { color: var(--brand-jade); }
+.growth .headline .word.is-lit { color: var(--brand-deep); }
+
+.section-work {
+  background: var(--brand-mint);
+  color: var(--brand-deep);
+  --accent: var(--brand-emerald);
+  --muted: var(--brand-jade);
+}
+.section-work .work-work-section,
+.section-work .work-middle-row,
+.section-work .work-last-row,
+.section-work .work-project { background: var(--brand-mint); }
+.section-work .work-first-row {
+  background-image: linear-gradient(#DAF1DE00, #DAF1DEcc 20%, var(--brand-mint) 60%);
+}
+.section-work .work-section-tag,
+.section-work .work-project-image { background: var(--brand-sage); }
+.section-work .work-tag-symbol::before,
+.section-work .work-tag-symbol::after { background: var(--brand-mint); }
+.section-work .work-project-info h2,
+.section-work .work-all-cases { color: var(--brand-deep); }
+.section-work .work-all-cases { border-color: var(--brand-emerald); }
+.section-work .work-all-cases:hover,
+.section-work .work-all-cases:focus-visible { color: var(--brand-emerald); }
+
+.section-services,
+.section-services .services-services { background: var(--brand-deep); color: var(--brand-mint); }
+.section-services .services-service-copy h2 { color: var(--brand-mint); }
+.section-services .services-service-copy p { color: var(--brand-sage); }
+.section-services .services-number,
+.section-services .services-eyebrow > span { color: var(--brand-emerald); }
+.section-services .services-image-stack:focus-visible { outline-color: var(--brand-sage); }
+.section-services .services-divider { background: var(--brand-emerald); }
+.section-services .services-divider.services-wave-ready { background: transparent; }
+.section-services .services-divider-wave path { stroke: var(--brand-emerald); }
+.section-services .services-atmosphere { opacity: .45; }
+
+.section-team,
+.section-team .team-team,
+.section-team .team-team-card { background: var(--brand-surface); color: var(--brand-mint); }
+.section-team .team-eyebrow { color: var(--brand-sage); }
+.section-team .team-role { color: var(--brand-sage); }
+.section-team .team-team-card:focus-visible { outline-color: var(--brand-emerald); }
+.section-team .team-card-backdrop {
+  background: linear-gradient(180deg, var(--brand-deep) 25%, var(--brand-jade) 72%, var(--brand-emerald));
+}
+.section-team .team-card-backdrop img { visibility: hidden; }
+
+.section-process { background: var(--brand-sage); color: var(--brand-deep); }
+.section-process .process-section-label span,
+.section-process .process-section-title > span { color: var(--brand-emerald); }
+.section-process .process-statement,
+.section-process .process-small-copy { color: var(--brand-jade); }
+.section-process .process-panel,
+.section-process .process-reel-surface,
+.section-process .process-popup-video,
+.section-process .process-reel-dialog { background: var(--brand-deep); color: var(--brand-mint); }
+.section-process .process-panel::after { background: var(--brand-deep); }
+.section-process .process-panel-top b { color: var(--brand-sage); }
+.section-process .process-panel:focus-visible { outline-color: var(--brand-emerald); }
+.section-process .process-reel-overlay { color: var(--brand-mint); }
+.section-process .process-reel-shade { background: #051F2080; }
+.section-process .process-reel-play { background: var(--brand-emerald); color: var(--brand-mint); }
+.section-process .process-reel-play:hover { background: var(--brand-jade); }
+.section-process .process-reel-play:focus-visible,
+.section-process .process-reel-close:focus-visible { outline-color: var(--brand-mint); }
+.section-process .process-reel-dialog::backdrop { background: #051F20ed; }
+.section-process .process-reel-close {
+  background: var(--brand-surface);
+  color: var(--brand-mint);
+  border-color: var(--brand-emerald);
+}
+.section-process .process-reel-close:hover { background: var(--brand-emerald); }

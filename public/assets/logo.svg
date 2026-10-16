@@ -1,0 +1,8 @@
+<svg width="156" height="32" viewBox="0 0 156 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wazemtech Brand Monogram in #DAF1DE -->
+  <path d="M4 6L11 26L17 12L23 26L30 6H24.5L20 18.5L15.5 8.5H18.5L17 6H9L12.5 14.5L8.5 6H4Z" fill="#DAF1DE"/>
+  <!-- Emerald Accent Dot #20836F -->
+  <circle cx="17" cy="4" r="1.6" fill="#20836F"/>
+  <!-- Typography in Be Vietnam / #DAF1DE -->
+  <text x="36" y="22" font-family="'Be Vietnam Pro', 'Be Vietnam', sans-serif" font-size="16.5" font-weight="700" letter-spacing="2.8" fill="#DAF1DE">WAZEMTECH</text>
+</svg>

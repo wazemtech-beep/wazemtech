@@ -1,0 +1,80 @@
+:root {
+  --brand-deep: #051f20;
+  --brand-surface: #0b2d26;
+  --brand-jade: #165039;
+  --brand-accent: #20836f;
+  --brand-mint: #daf1de;
+  --brand-muted: #c8e2d6;
+  --brand-white: #ffffff;
+  --brand-black: #000000;
+}
+.section-work { background:var(--brand-mint);color:var(--brand-deep);--accent:var(--brand-accent);--muted:var(--brand-jade); }
+.section-work .work-work-section { background:var(--brand-mint); }
+.section-work .work-section-tag,.section-work .work-all-cases { color:var(--brand-deep); }
+.section-work .work-tag-symbol { background:var(--brand-accent); }
+.section-work .work-project-info h2 { color:var(--brand-deep); }
+.section-work .work-all-cases { border-color:var(--brand-muted); }
+.section-services,.section-services .services-services { background:var(--brand-deep);color:var(--brand-mint); }
+.section-services .services-atmosphere { opacity:.18;mix-blend-mode:luminosity; }
+.section-services .services-service-copy h2 { color:var(--brand-mint); }
+.section-services .services-service-copy p,.section-services .services-eyebrow>span { color:var(--brand-muted); }
+.section-services .services-number { color:var(--brand-accent); }
+.section-services .services-divider { background:var(--brand-accent); }
+.section-services .services-divider-wave path { stroke:var(--brand-muted); }
+.section-services .services-image-stack:focus-visible { outline-color:var(--brand-mint); }
+.section-team,.section-team .team-team { background:var(--brand-surface);color:var(--brand-mint); }
+.section-team .team-eyebrow { color:var(--brand-muted); }
+.section-team .team-team-card { background:var(--brand-deep); }
+.section-team .team-card-backdrop { background:linear-gradient(180deg,var(--brand-deep),var(--brand-jade) 65%,var(--brand-accent)); }
+.section-team .team-card-backdrop img { opacity:0; }
+.section-team .team-role { color:var(--brand-muted); }
+.section-team .team-team-card:focus-visible { outline-color:var(--brand-mint); }
+.section-process { background:var(--brand-white);color:var(--brand-deep); }
+.section-process .process-section-label span,.section-process .process-section-title>span { color:var(--brand-accent); }
+.section-process .process-statement,.section-process .process-small-copy { color:var(--brand-jade); }
+.section-process .process-panel,.section-process .process-reel-surface { background:var(--brand-deep); }
+.section-process .process-panel::after { background:var(--brand-deep); }
+.section-process .process-panel-top b { color:var(--brand-mint); }
+.section-process .process-panel:focus-visible { outline-color:var(--brand-accent); }
+.section-process .process-reel-play { background:var(--brand-accent); }
+.section-process .process-reel-play:hover,.section-process .process-reel-close:hover { background:var(--brand-jade); }
+.section-process .process-reel-close { background:var(--brand-surface); }
+.section-process .process-reel-dialog { background:var(--brand-black); }
+.section-process .process-reel-dialog::backdrop { background:rgba(5,31,32,.94); }
+
+/* Share the hero typography without carrying over the templates' condensed axes. */
+.growth,
+.section-work,
+.section-services,
+.section-team,
+.section-process {
+  font-family:var(--font-body);
+  letter-spacing:0;
+}
+:is(.growth,.section-work,.section-services,.section-team,.section-process) :is(p,a,button,span,strong,blockquote,sup) {
+  font-family:var(--font-body);
+  font-variation-settings:normal;
+  letter-spacing:0;
+}
+:is(.growth,.section-work,.section-services,.section-team,.section-process) :is(h2,h3),
+.section-services .services-heading-line,
+.section-work .work-section-title,
+.section-process .process-section-title>span,
+.section-process .process-reel-left>span,
+.section-process .process-reel-right>span {
+  font-family:var(--font-display);
+  font-weight:400;
+  font-variation-settings:normal;
+  letter-spacing:0;
+}
+.growth .headline .word { font-family:inherit; }
+.section-process .process-panel-copy { width:100%; }
+.section-process .process-panel h2 { overflow-wrap:anywhere; }
+.section-team .team-member-details h2 { font-size:24px;line-height:1.15; }
+.section-process .process-section-title { line-height:1.05; }
+.section-process .process-reel-left,.section-process .process-reel-right { line-height:1.1; }
+@media(max-width:809px) {
+  .section-team .team-member-details h2 { font-size:18px; }
+  .section-team .team-role { white-space:normal; }
+  .section-team .team-scramble { white-space:normal; }
+}
