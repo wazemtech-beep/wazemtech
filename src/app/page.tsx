@@ -2,7 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import GrowthSection from "@/components/GrowthSection";
 import WorkSection from "@/components/WorkSection";
 import ServicesSection from "@/components/ServicesSection";
-import TeamSection from "@/components/TeamSection";
+// import TeamSection from "@/components/TeamSection";
 import ProcessSection from "@/components/ProcessSection";
 import AboutSection from "@/components/AboutSection";
 import FaqSection from "@/components/FaqSection";
@@ -16,7 +16,7 @@ export default function Home() {
       <AboutSection />
       <WorkSection />
       <ServicesSection />
-      <TeamSection />
+      {/* <TeamSection /> */}
       <ProcessSection />
       <FaqSection />
       <FooterSection />
