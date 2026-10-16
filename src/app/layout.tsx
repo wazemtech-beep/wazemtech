@@ -113,6 +113,62 @@ const jsonLd = {
         "https://www.linkedin.com/in/waseemakramdev",
       ],
     },
+    {
+      "@type": "WebSite",
+      "@id": "https://wazemtech.com/#website",
+      url: "https://wazemtech.com",
+      name: "Wazemtech",
+      description: "Wazemtech | Digital Innovation & Design Studio",
+      publisher: {
+        "@id": "https://wazemtech.com/#organization",
+      },
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://wazemtech.com/#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What services does your agency provide?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Wazemtech brings together brand identity, web design and development, interaction design, and custom AI and software solutions.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How do you approach a new project?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "We start by understanding your business, audience and goals. Together we define the scope and direction, then move through design, development, feedback and launch.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is the typical timeline for a project?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The timeline depends on the scope, complexity and feedback required. We agree on milestones and a delivery schedule before the project begins.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How do you handle revisions?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "We collect feedback at agreed checkpoints and refine the work together. Revision rounds and any additional scope are outlined in your project proposal.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How much do your services cost?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Each project is quoted around its requirements. Share your goals, deliverables and budget so we can prepare a clear scope and tailored estimate.",
+          },
+        },
+      ],
+    },
   ],
 };
 
