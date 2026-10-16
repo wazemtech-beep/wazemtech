@@ -48,10 +48,10 @@ export default function FooterSection() {
           <p>Brand, web, and product design. Always happy to talk, even early.</p>
           <div className="agency-footer-contact">
             <div className="agency-footer-socials" aria-label="Social platforms">
-              <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" title="Facebook profile pending" aria-label="Facebook"><img src="/assets/social-facebook.svg" width={20} height={20} alt="" /></a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" title="LinkedIn profile pending" aria-label="LinkedIn"><img src="/assets/social-linkedin.svg" width={20} height={20} alt="" /></a>
-              <a href="https://x.com/" target="_blank" rel="noopener noreferrer" title="X profile pending" aria-label="X"><img src="/assets/social-x.svg" width={20} height={20} alt="" /></a>
-              <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer" title="YouTube profile pending" aria-label="YouTube"><CirclePlay size={20} /></a>
+              <a href="https://github.com/waseemakram-dev" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub"><img src="/assets/arrow.svg" width={20} height={20} alt="" style={{ transform: "rotate(-45deg)" }} /></a>
+              <a href="https://www.linkedin.com/in/waseemakramdev" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn"><img src="/assets/social-linkedin.svg" width={20} height={20} alt="" /></a>
+              <a href="https://x.com/iamwaseemdev" target="_blank" rel="noopener noreferrer" title="X (Twitter)" aria-label="X"><img src="/assets/social-x.svg" width={20} height={20} alt="" /></a>
+              <a href="https://www.behance.net/iamwaseemdev" target="_blank" rel="noopener noreferrer" title="Behance" aria-label="Behance"><CirclePlay size={20} /></a>
             </div>
             {/* Replace this draft address with the agency's verified email before publishing. */}
             <a className="agency-footer-email" href="mailto:hello@wazemtech.com">hello@wazemtech.com</a>

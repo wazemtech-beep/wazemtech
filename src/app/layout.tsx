@@ -57,6 +57,63 @@ export const metadata: Metadata = {
     description:
       "Wazemtech blends creativity with technical expertise to craft transformative digital experiences, web design, and intelligent software solutions.",
   },
+  verification: {
+    google: "U7AnFXOFuKBz18Hwa9rbgs7wQ5euKQudAqfgXstWxvY",
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://wazemtech.com/#waseemakram",
+      name: "Waseem Akram",
+      jobTitle: "Founder & Full Stack Software Developer",
+      description:
+        "Full Stack Software Developer & SaaS Architect, founder of Wazemtech, specializing in modern web applications, scalable SaaS products, and digital experiences.",
+      url: "https://wazemtech.com",
+      image: "https://wazemtech.com/favicon.svg",
+      sameAs: [
+        "https://www.linkedin.com/in/waseemakramdev",
+        "https://github.com/waseemakram-dev",
+        "https://x.com/iamwaseemdev",
+        "https://www.behance.net/iamwaseemdev",
+        "https://dribbble.com/waseemakramdev",
+        "https://www.tiktok.com/@iamwaseemdev",
+      ],
+      knowsAbout: [
+        "Full Stack Software Development",
+        "SaaS Application Architecture",
+        "Web Development",
+        "Next.js & React",
+        "Cloud Software Engineering",
+      ],
+      worksFor: {
+        "@type": "Organization",
+        "@id": "https://wazemtech.com/#organization",
+        name: "Wazemtech",
+      },
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://wazemtech.com/#organization",
+      name: "Wazemtech",
+      url: "https://wazemtech.com",
+      logo: "https://wazemtech.com/favicon.svg",
+      description:
+        "Wazemtech is a digital innovation & software studio building transformative web experiences, intelligent SaaS platforms, and modern digital solutions.",
+      founder: {
+        "@type": "Person",
+        "@id": "https://wazemtech.com/#waseemakram",
+      },
+      sameAs: [
+        "https://github.com/wazemtech-beep",
+        "https://x.com/iamwaseemdev",
+        "https://www.linkedin.com/in/waseemakramdev",
+      ],
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -66,6 +123,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${beVietnam.variable} ${playfairDisplay.variable}`}>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="U7AnFXOFuKBz18Hwa9rbgs7wQ5euKQudAqfgXstWxvY"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body>
         <SmoothScroll>{children}</SmoothScroll>
         <SpeedInsights />
